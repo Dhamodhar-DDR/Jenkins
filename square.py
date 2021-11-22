@@ -11,4 +11,3 @@ def check_perfect_square(n):
         if(root*root == i):
             l.append(i)
     return l
-print(check_perfect_square(25))
