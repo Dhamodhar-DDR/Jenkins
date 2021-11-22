@@ -6,8 +6,9 @@ def check_perfect_square(n):
     if(n<1):
         return []
     l = []
-    for i in range(1,n):
+    for i in range(1,n+1):
         root = int(math.sqrt(i))
         if(root*root == i):
             l.append(i)
     return l
+print(check_perfect_square(25))
