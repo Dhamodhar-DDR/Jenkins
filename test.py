@@ -2,7 +2,7 @@
 # Test case for adding two numbers
 import unittest
 
-from prog import check_perfect_square
+from square import check_perfect_square
 
 class TestSquare(unittest.TestCase):
     def test_list_int_0(self):
